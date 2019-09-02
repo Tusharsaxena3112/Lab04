@@ -42,7 +42,7 @@ public class Person {
     }
 
     public void introduction() {
-        System.out.println("Hello there ! My name is " + name + "\n and I am here to represent my company!\n I am " + age + " years old \n My short term goal is\n" + shortterm);
+        System.out.println("Hello there ! My name is " + name + "\nAnd I am here to represent my company!\nI am " + age + " years old \nMy short term goal is\n" + shortterm);
     }
 
     @Override

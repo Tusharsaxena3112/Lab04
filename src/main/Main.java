@@ -6,6 +6,8 @@ public class Main {
         Scanner input=new Scanner(System.in);
         person.setName(input.nextLine());
         person.setAge(input.nextInt());
+        char gender = input.next().trim().charAt(0);
+        person.setGender(gender);
         System.out.println(person.toString());
     }
 }

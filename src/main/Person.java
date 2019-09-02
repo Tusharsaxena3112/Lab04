@@ -4,6 +4,7 @@ public class Person {
     private String name;
     private int age;
     private char gender;
+    private String shortterm;
 
     public Person(String name, int age, char gender) {
         this.name = name;
@@ -34,6 +35,14 @@ public class Person {
     public void setGender(char gender) {
         this.gender = gender;
 
+    }
+
+    public void setShortterm(String shortterm) {
+        this.shortterm = shortterm;
+    }
+
+    public void introduction() {
+        System.out.println("Hello there ! My name is " + name + "\n and I am here to represent my company!\n I am " + age + " years old \n My short term goal is\n" + shortterm);
     }
 
     @Override
